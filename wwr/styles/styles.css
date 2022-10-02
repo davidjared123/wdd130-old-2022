@@ -1,0 +1,85 @@
+    /* GENERAL  */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+    /* HEADER SECTION  */
+header{
+    border: #000 1px solid;
+    padding: 0 8em;
+    background: rgb(10, 71, 81);   
+}
+
+header img{
+    height: 3em;
+}
+
+header nav{
+    height: 4em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+}
+header nav a:hover{
+    text-decoration: none;
+    color: rgb(30, 133, 149);
+}
+    /* HERO SECTION  */
+#hero{height: 90vh;
+    position: relative;
+}
+#hero #hero-box{
+    height: 90vh;
+    overflow: hidden;
+    background-color: rgb(41, 41, 50);
+}
+
+#hero #hero-box #hero-img{
+    object-fit: cover;
+    opacity: 0.6;
+    width:100%;
+    height:100%;
+}
+
+#hero #hero-msg{
+    position: absolute;
+    top: calc(50vh - 4em - 60px);
+    height: 140px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+#hero #hero-msg .home-title{
+    font-size: 4em;
+}
+#hero #hero-msg h4{
+    font-size: 1.5em;
+}
+
+#hero #hero-msg .button-box{
+    padding: 1em;
+    margin-top: 10px;
+}
+
+#hero #hero-msg .button-box .book{
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+    background-color: rgb(30, 133, 149);
+}
+
+#hero #hero-msg .button-box .book:hover{
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+    background: rgb(10, 71, 81);
+}
