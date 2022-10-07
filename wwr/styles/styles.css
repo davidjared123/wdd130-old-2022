@@ -4,14 +4,19 @@
     margin: 0;
 }
 
+.content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
     /* HEADER SECTION  */
 header{
     border: #000 1px solid;
-    padding: 0 8em;
-    background: rgb(10, 71, 81);   
+    background: rgb(10, 71, 81);
+    padding: 0 8rem;
 }
 
-header img{
+header .logo{
     height: 3em;
 }
 
@@ -25,31 +30,38 @@ header nav{
 
 header nav a{
     text-decoration: none;
-    color: white;
+    color: #fcfbfb;
 }
 header nav a:hover{
     text-decoration: none;
     color: rgb(30, 133, 149);
 }
+
+
     /* HERO SECTION  */
-#hero{height: 90vh;
+#hero{
+    text-align: center;
+    margin:auto 0;
     position: relative;
 }
 #hero #hero-box{
-    height: 90vh;
+     margin:auto 0;
     overflow: hidden;
-    background-color: rgb(41, 41, 50);
+    height: 725px;
 }
 
 #hero #hero-box #hero-img{
+    /* background-color: rgb(41, 41, 50); */
+    margin-top: -250px;
+    width: 100%;
     object-fit: cover;
-    opacity: 0.6;
-    width:100%;
-    height:100%;
+    /* opacity: 0.6; */
 }
 
 #hero #hero-msg{
+    margin-top: 0 auto;
     position: absolute;
+    z-index: 1000;
     top: calc(50vh - 4em - 60px);
     height: 140px;
     text-align: center;
@@ -59,10 +71,12 @@ header nav a:hover{
 }
 
 #hero #hero-msg .home-title{
-    font-size: 4em;
+    font-size: 5em;
+    text-shadow: #000 2px 5px 20px;
 }
 #hero #hero-msg h4{
-    font-size: 1.5em;
+    font-size: 2em;
+    text-shadow: #000 2px 5px 5px;
 }
 
 #hero #hero-msg .button-box{
@@ -82,4 +96,47 @@ header nav a:hover{
     color: white;
     padding: 1em;
     background: rgb(10, 71, 81);
+}
+
+
+/* .home-grid */
+.home-grid #background {
+    background-color: beige;
+    height: 725px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-grid{
+    text-align: center;
+    /* background-color: beige; */
+}
+
+.home-grid .msg{
+    text-align: center;
+    background-color: beige;
+}
+
+.home-grid a{
+    margin-top: 25px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+    background-color: rgb(30, 133, 149);
+}
+
+
+/* FOOTER */
+footer p {
+    font-size: 1.2em;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
 }
