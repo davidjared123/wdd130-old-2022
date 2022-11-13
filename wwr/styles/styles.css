@@ -303,3 +303,50 @@ footer .social img{
     }
 }
    
+
+/* BLOG SECTION PAGE */
+
+.main-blog{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    padding: 40px;
+}
+
+.main-title{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    font-weight: bold;
+}
+
+.main-blog img{
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+}
+
+.blog-card{
+    background-color: #f8e8d3;
+    padding: 1em;
+}
+
+.highlights-sections{
+    background: #F5F5DC;
+    padding: 2em;
+}
+.highlights-sections h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.highlights-content{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.highlights-content img{
+    height: 350px;
+}
